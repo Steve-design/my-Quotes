@@ -6,7 +6,7 @@ import { Quote } from '../quote';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
-  quotes:Quote = [
+  quotes:Quote[] = [
     {id:1,name:'Energy is precious, use your energy to build not to destroy',author:'Constance Chuks Friday',source:'Gerry Cop Times'},
     {id:2,name:'The sensation of energy expands with increasing relaxation',author:'Ilchi Lee',source:'Japan Daily'},
     {id:3,name:'The more you lose yourself in something bigger than yourself, the more energy you will have',author:'Norman Vincent Peal',source:'New York Times'},
