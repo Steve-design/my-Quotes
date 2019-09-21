@@ -9,6 +9,6 @@ export class AppComponent {
   quotes:string[];
 
   constructor(){
-    this.quotes = ['Watch finding Nemo', 'Buy cookies', 'Get new phone case']
+    this.quotes = ['Energy is precious, use your energy to build not to destroy', 'The sensation of energy expands with increasing relaxation', 'The more you lose yourself in something bigger than yourself, the more energy you will have']
   } 
 }
