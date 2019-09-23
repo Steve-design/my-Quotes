@@ -7,13 +7,13 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes:Quote[] = [
-    {id:1,name:'Energy is precious, use your energy to build not to destroy',author:'Constance Chuks Friday',source:'Gerry Cop Times'},
-    {id:2,name:'The sensation of energy expands with increasing relaxation',author:'Ilchi Lee',source:'Japan Daily'},
-    {id:3,name:'The more you lose yourself in something bigger than yourself, the more energy you will have',author:'Norman Vincent Peal',source:'New York Times'},
-    {id:4,name:'A person of intellect without energy added to it, is a failure',author:'Sebastien-Roch Nicolas De Chamfort',source:'Alegro'},
-    {id:5,name:'Energy and persistence alter all things',author:'Benjamin Franklin',source:'Old is Gold Editors'},
-    {id:6,name:"Nearly all men can stand adversity, but if you want to test a man's character, give him power",author:'Abraham Lincoln',source:'Old is Gold Editors'},
-    {id:7,name:'I wonder if fears ever really go away, or if they just lose their power over us',author:'Veronica Roth',source:'Push Release Monthly'},
+  new Quote  (1,'Energy is precious, use your energy to build not to destroy','Constance Chuks Friday','Gerry Cop Times'),
+  new Quote  (2,'The sensation of energy expands with increasing relaxation','Ilchi Lee','Japan Daily'),
+  new Quote  (3,'The more you lose yourself in something bigger than yourself, the more energy you will have','Norman Vincent Peal','New York Times'),
+  new Quote  (4,'A person of intellect without energy added to it, is a failure','Sebastien-Roch Nicolas De Chamfort','Alegro'),
+  new Quote  (5,'Energy and persistence alter all things','Benjamin Franklin','Old is Gold Editors'),
+  new Quote  (6,"Nearly all men can stand adversity, but if you want to test a man's character, give him power",'Abraham Lincoln','Old is Gold Editors'),
+  new Quote  (7,'I wonder if fears ever really go away, or if they just lose their power over us','Veronica Roth','Push Release Monthly'),
   ];
   constructor() { }
 
