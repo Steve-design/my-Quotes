@@ -5,6 +5,7 @@
     <div class="row">
       <div class="col-md-6">
         <div *ngFor='let quote of quotes;let i = index'>
+            <app-likes (addLike)="addNewLIke($event)"></app-likes>
           <div>
             <h6 id={{i}}>{{quote.name}}</h6>
             <button (click)='toggleDetails(i)' class="btn btn-primary">Author and Source</button>

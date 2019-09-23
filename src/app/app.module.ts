@@ -7,8 +7,6 @@ import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { FormsModule } from '@angular/forms';
-import { VotesComponent } from './votes/votes.component';
-import { LikesComponent } from './likes/likes.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,13 +14,12 @@ import { LikesComponent } from './likes/likes.component';
     QuoteDetailComponent,
     DateCountPipe,
     QuoteFormComponent,
-    VotesComponent,
-    LikesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
