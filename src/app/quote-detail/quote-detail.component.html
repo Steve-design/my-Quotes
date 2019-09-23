@@ -6,5 +6,5 @@
     {{quote.source}}
 </p>
 </div>
-<button (click)= 'quoteComplete(true)'>Complete</button>
-<button (click)= 'goalDelete(true)'>Delete Goal</button>
+<p>This quote was created {{quote.completeDate|dateCount}} days ago</p>
+<button (click)= 'quoteDelete(true)'>Delete Quote</button>
