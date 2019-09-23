@@ -15,6 +15,9 @@ export class QuoteComponent implements OnInit {
   new Quote  (6,"Nearly all men can stand adversity, but if you want to test a man's character, give him power",'Abraham Lincoln','Old is Gold Editors'),
   new Quote  (7,'I wonder if fears ever really go away, or if they just lose their power over us','Veronica Roth','Push Release Monthly'),
   ];
+  toggleDetails(index){
+    this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  }
   constructor() { }
 
   ngOnInit() {
